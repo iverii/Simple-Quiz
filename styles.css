@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f0f0; /* Changed background color */
+}
+
+.quiz-heading {
+    background: #2c3e50; /* Changed background color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.question-card {
+    background: #ffffff;
+    max-width: 600px;
+    width: 90%;
+    padding: 15px 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; /* Adjusted box shadow */
+}
+
+input {
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.submit {
+    background: #f39c12; /* Changed background color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px; /* Adjusted padding */
+    color: white;
+    font-weight: bold; /* Added bold font */
+}
+
+.next {
+    background: #27ae60; /* Changed background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px; /* Adjusted padding */
+    font-weight: bold; /* Added bold font */
+}
+
+li {
+    margin: 20px 0; /* Adjusted margin */
+}
+
+.answer-label {
+    background: #3498db; /* Changed background color */
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: fit-content;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.correct, .incorrect {
+    background: #dff0d8; /* Changed background color */
+    margin: 5px 0 -15px; /* Adjusted margin */
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+}
+.correct{
+    color: #3c763d; /* Changed text color */
+
+}
+.incorrect{
+    background-color: pink;
+    color: red;
+}
+
+.idle {
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+
+.app-body {
+    max-width: 600px;
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.answer-key {
+    margin: 0 10px;
+    display: none;
+}
+
+button {
+    background: #3498db; /* Changed background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px; /* Adjusted padding */
+    margin: 0 10px;
+    display: none;
+    cursor: pointer;
+}
